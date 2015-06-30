@@ -2,7 +2,6 @@ module Sidekiq
   module Grouping
     class Actor
       include Sidekiq::Grouping::Logging
-      include ::Celluloid
 
       def initialize
         link_to_sidekiq_manager
